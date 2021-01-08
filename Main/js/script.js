@@ -26,8 +26,6 @@ function getZero(num) {
     }
 }
 
-console.log(getRemainingTime(deadline));
-
 function setClock(selector, endtime) {
     const timer = document.querySelector(selector),
           days = timer.querySelector('#days'),
@@ -78,4 +76,3 @@ btn.addEventListener('click', () => {
         text.innerHTML = 'error';
     }
 });
-
