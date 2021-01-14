@@ -267,3 +267,18 @@ window.addEventListener('DOMContentLoaded', () => {
         // --------------------------------- // MENU ---------------------------
 
     });
+
+
+    // Из main/script.js
+    // REST оператор. Похож на *args **kwargs в python
+
+const log = function(a, b, ...rest) {
+    console.log(a, b, rest);
+};
+log('basic', 'rest', 'operator', 'moderator', 'usage', 'boris');
+
+
+function calcOrDouble(number, basis = 2) {
+    console.log(number * basis);
+}
+calcOrDouble(3, 5);
