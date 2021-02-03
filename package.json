@@ -1,0 +1,22 @@
+{
+  "name": "react_js",
+  "version": "1.0.0",
+  "description": "Description",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/venaaa/react-js-leaning.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/venaaa/react-js-leaning/issues"
+  },
+  "homepage": "https://github.com/venaaa/react-js-leaning#readme",
+  "devDependencies": {
+    "json-server": "^0.16.3"
+  }
+}
