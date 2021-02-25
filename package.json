@@ -18,5 +18,8 @@
   "homepage": "https://github.com/venaaa/react-js-leaning#readme",
   "devDependencies": {
     "json-server": "^0.16.3"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta1"
   }
 }
