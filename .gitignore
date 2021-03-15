@@ -30,4 +30,7 @@ yarn-error.log*
 
 /domains/hama
 /domains/mex
+/domains/food/node_modules
+
+/Main/webpack-demo/node_modules
 

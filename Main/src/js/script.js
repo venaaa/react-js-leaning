@@ -1,4 +1,6 @@
 /*jslint node: true */
+/*jshint maxlen: 50 */
+/*jshint ignore:start */
 'use strict';
 
 // ========= GETTER/SETTER 068 ===========
@@ -118,3 +120,22 @@
 // user.sayHello();
 
 // ========= / 070 МОДУЛИ ===============
+
+//  =========== 71 webpack и модули ==========
+
+function myModule() {
+    this.hello = function() {
+        console.log('hello');
+    };
+
+    this.goodbye = function() {
+        console.log('bye!');
+    };
+}
+
+module.exports = myModule;
+
+//  =========== / 71 webpack и модули ==========
+
+
+/*jshint ignore:end*/

@@ -24,14 +24,9 @@
   ],
   "requests": [
     {
-      "name": "Сергей",
-      "phone": "+7(888)8888888",
+      "name": "serge",
+      "phone": "bubu",
       "id": 1
-    },
-    {
-      "name": "Serhii",
-      "phone": "+3(899)9999999",
-      "id": 2
     }
   ]
 }
